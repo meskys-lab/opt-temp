@@ -4,7 +4,7 @@
 
 ## Installation
 
-All dependencies and libraries are in environment file. To create conda environment run: 
+First, clone environment and the create conda environment. To create conda environment run: 
 
 ```
 conda env create -f environment.yml
