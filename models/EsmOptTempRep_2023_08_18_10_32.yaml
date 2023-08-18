@@ -1,0 +1,12 @@
+backbone: esm2_t6_8M_UR50D
+batch_size: 8
+esm_model_hub: /mnt/shared/models/esm/weights/hub
+initial_epochs: 1
+model: esm_rep
+model_dir: null
+n_one_cycles: 2
+one_cycle_epochs: 4
+train_csv: /mnt/shared/datasets/thermo_stability/Length_512_experimental/train_split.csv
+use_lora: false
+val_csv: /mnt/shared/datasets/thermo_stability/Length_512_experimental/val_split.csv
+lora_rank: 64
